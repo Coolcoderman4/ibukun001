@@ -34,3 +34,18 @@ font-size: 8px;
     cursor: pointer;
     font-family: 'Courier New', Courier, monospace;
  }
+
+ .HeroMiddle {
+    border: 1px solid red;
+    height: 70vh;
+    background-image: url("https://images.alphacoders.com/107/1076955.jpg");
+    background-repeat: no-repeat;
+    color: whitesmoke;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    /* padding: 200px; */
+ }
