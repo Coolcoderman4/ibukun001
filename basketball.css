@@ -29,7 +29,8 @@ font-size: 8px;
     border:none;
     padding:15px;
     background-color: orange;
-    font-size: 12px;
+    font-size: 15px;
+    font-weight: 800;
+    cursor: pointer;
     font-family: 'Courier New', Courier, monospace;
  }
-   
