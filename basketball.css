@@ -74,35 +74,42 @@ font-size: 8px;
    border:red solid 2px;
    background-color:whitesmoke;
    height:50vh
+   
  }
 
  .boxes{
    border :blue solid 2px;
    height:41vh;
-   display:flex
+   display:flex;
+   align-items: center;
+   justify-content: center;
+   gap:20px;
  }
  .box1{
    border :green solid 2px;
    height:20vh;
    width:20%;
-   margin:auto;
    
+   background-color: white;
  }
   .box2{
    border :purple solid 2px;
    height:20vh;
    width:20%;
-   margin:auto;
+   
+   background-color: white;
  }
   .box3{
    border :pink solid 2px;
    height:20vh;
    width:20%;
-   margin:auto;
+   
+   background-color: white;
  }
   .box4{
    border :yellow solid 2px;
    height:20vh;
    width:20%;
-   margin:auto;
+   
+   background-color: white;
  }
