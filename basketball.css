@@ -73,5 +73,36 @@ font-size: 8px;
  .risingbottom{
    border:red solid 2px;
    background-color:whitesmoke;
-   padding:
+   height:50vh
+ }
+
+ .boxes{
+   border :blue solid 2px;
+   height:41vh;
+   display:flex
+ }
+ .box1{
+   border :green solid 2px;
+   height:20vh;
+   width:20%;
+   margin:auto;
+   
+ }
+  .box2{
+   border :purple solid 2px;
+   height:20vh;
+   width:20%;
+   margin:auto;
+ }
+  .box3{
+   border :pink solid 2px;
+   height:20vh;
+   width:20%;
+   margin:auto;
+ }
+  .box4{
+   border :yellow solid 2px;
+   height:20vh;
+   width:20%;
+   margin:auto;
  }
