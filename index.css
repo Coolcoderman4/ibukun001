@@ -9,122 +9,86 @@
     gap: 20px;
     
 } */
+/* top */
 *{
     margin:0;
     padding:0;
-    font-family: fantasy;
+    
+    font-family: oswald, sans-serif;
 }
-
-.navbar{
+.topnav{
+    background-color: #333;
     display:flex;
     justify-content: space-around;
-    background-color: #333;
     align-items: center;
-    font-family: fantasy;
-    font-size: 10px;
-    color: white;
-    padding:12px
+    padding: 5px;
+    /* border:10px solid red; */
+    color:white;
 }
-
-.logo{
-display:flex;
-align-items: center;
-}
-/* Some stuffs here */
-
-.menu{
-display:flex;
-gap: 15px;
-font-size: 8px;
-}
- .btn{
-    border-radius: 10px;
-    border:none;
-    padding:15px;
-    background-color: orange;
-    font-size: 15px;
-    font-weight: 800;
-    cursor: pointer;
-    font-family: fantasy;
- }
-
- .HeroMiddle {
-    height: 70vh;
-    background-image: url("https://images.alphacoders.com/107/1076955.jpg");
-    background-repeat: no-repeat;
-    color: whitesmoke;
-    background-size: cover;
-    background-position: center;
+/* middle */
+.right{
+    /* border:10px solid blue; */
     display: flex;
+    justify-content: space-between;
+    gap :15px;
+    font-size: 10px;
+    margin-left:auto;
+    color:white;
+}
+.middle{
+    /* border:10px solid green; */
+    height:75vh;
+    display:flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    font-family: 'Courier New', Courier, monospace;
-    /* padding: 200px; */
- }
- .middletext{
-    font-size: 40px;
-    margin-bottom:20px;
- }
-
- .btn-hero{
-    font-family: fantasy;
-    font-size: 15px;
-    font-weight: 800;
-    border:none;
-    padding:15px;
-    border-radius:10px;
-    background-color: orange;
-    box-shadow: 0px 0px 20px  black;
-    cursor: pointer;
-    transition: ease-in-out .2s;
-    margin-top: 20px;
- }
-
- .btn-hero:hover {
-    background-color: darkorange;
-    color: #fff;
-    transform: scaleX(1.2);
- }
-
- .text{
-      font-family: fantasy;
-      text-align: center;
-      margin-top: 50px;
-      padding-block: 70px;
-      background-color:whitesmoke;
- }
-
- .risingbottom{
-   background-color:whitesmoke;
-   height:80vh;
-   margin-top: -100px;
- }
-
- .boxes{
-   height:41vh;
-   display:flex;
-   align-items: center;
-   justify-content: center;
-   gap:20px;
-   background-color:whitesmoke;
- }
- .box{
-   border-radius: 10px;
-   height:40vh;
-   width: 200px;
-   display: flex;
-   flex-direction: column;
-   align-items: center;
-   justify-content: center;
-   background-color: white;
-   gap: 10px; /*This is the gap inside the box*/
-   padding-inline: 20px;
-   box-shadow: 0px 0px 5px #333;
- }
-
- .box-img {
-    width: 100px;
-    height: 100px;
-    border-radius: 100%; /*This is what makes the border rounded*/
- }
+    background-image: url('https://images.wallpapersden.com/image/download/attack-on-titan-poster-4k-digital-2022_bWlmaWWUmZqaraWkpJRobWllrWZtZWk.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color:white;
+}
+.middle1{
+    /* border:10px solid yellow; */
+    
+    font-size: 10px;
+    margin:150px;
+    height:25vh;
+    border-radius: 20px;
+    background-color: rgba(0, 0, 0, 0.65);
+    display:flex;
+    text-align: center;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-around;
+    color:white;
+}
+.middlebtn{
+    background-color: orangered;
+    border: none;
+    border-radius: 10px;
+    padding: 10px;
+    color:white;
+   
+}
+/* second */
+.description{
+    font-size: 10px;
+    /* border: solid 10px purple; */
+    color:black;
+    background-color: whitesmoke;
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    padding: 50px;
+    justify-content: space-around;
+    text-align: center;
+    height: 125vh;
+    
+}
+.imgmid{
+    height: 800px;
+    width: 700px;
+    border-radius: 5px;
+    align-items: center;
+}
