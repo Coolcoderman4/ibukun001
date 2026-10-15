@@ -93,3 +93,6 @@
     border-radius: 5px;
     align-items: center;
 }
+@media (max-width: 600px) {
+    /* Mobile CSS goes here */
+}
